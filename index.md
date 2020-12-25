@@ -1,5 +1,5 @@
-#Carpe-Cursus
+# Carpe-Cursus
 
-Seize your Career ! 
+## Seize your Career ! 
 
-_Your guide to the professors and courses in the Indian Insitute of Science_
+### *Your guide to the professors and courses in the Indian Insitute of Science*
