@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+body {
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+
+<h1>New Course Form</h1>
+<p>This is a form to register a new course of IISc which is not there in our form. Once You fill this, we will check if the course is already registered or if such courses exist after that we will update in our website</p>
+  <div class="container">
+    <form>
+      <label>Course Code</label>
+      <input type="text" name="Course Code"><br />
+      
+  <br>    <label>Name of the Course</label>
+      <input type="text" name="Course name"><br />
+      
+  <br>    <label> Proffessor </label>
+      <input type="text" name="Prof name"><br />
+    <label>How would You rate the overall course (1- bad, 10 - outstanding)</label>  
+    
+    <input type="range" list="tickmarks">
+      <datalist id="tickmarks">
+  <option value="1" label="1"></option>
+  <option value="2"></option>
+  <option value="3"></option>
+  <option value="4"></option>
+  <option value="5"></option>
+  <option value="6"></option>
+  <option value="7"></option>
+  <option value="8"></option>
+  <option value="9"></option>
+  <option value="10" label="10"></option>
+	</datalist>
+    
+ <br>   <label>How would You rate the Proffesor (1- bad, 10 - outstanding)</label>  
+    
+    <input type="range" list="tickmarks">
+      <datalist id="tickmarks">
+  <option value="1" label="1"></option>
+  <option value="2"></option>
+  <option value="3"></option>
+  <option value="4"></option>
+  <option value="5"></option>
+  <option value="6"></option>
+  <option value="7"></option>
+  <option value="8"></option>
+  <option value="9"></option>
+  <option value="10" label="10"></option>
+	</datalist>
+    </form>
+  </div>
+  
+  
+  
+</body>
+</html>
