@@ -6,19 +6,18 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: Carpe Cursus
 
 # Your name to show in the footer
-author: Some Person
+author: Carpe Cursus Society
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  About Me: "About/aboutme"
+  Course-List: "Course-Directory/course-list"
+    
+ 
 
 # --- Logo --- #
 
@@ -40,11 +39,11 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  facebook: nada
+  github: https://github.com/rsn870/carpe-cursus.io/
+  twitter: nada
+  patreon: nada
+  youtube: nada
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
@@ -186,7 +185,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Asia/Delhi"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
